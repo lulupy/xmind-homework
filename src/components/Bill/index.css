@@ -1,0 +1,45 @@
+.bill{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.bill__title{
+  display: flex;
+  padding: 10px 0;
+}
+.bill__title > span{
+  margin-right: auto;
+}
+.bill__content{
+  padding: 20px;
+  border: 1px solid #efefef;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 -1px 5px #efefef;
+  background-color: #fff;
+}
+.bill__row{
+  display: flex;
+}
+.bill__category-select,
+.bill__time-select{
+  width: 150px;
+  margin-right: auto;
+}
+.bill__item{
+  display: flex;
+  padding: 5px;
+}
+.bill__time{
+  color: #cecece;
+  margin-right: auto;
+  margin-left: 20px;
+}
+.bill__catetory{
+  width: 70px;
+}
+.bill__amount{
+  color: green;
+}
+
+.bill__amount.negative{
+  color: red;
+}

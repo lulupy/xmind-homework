@@ -1,0 +1,11 @@
+.statistics-item{
+  display: flex;
+  padding: 5px 0;
+}
+
+.statistics-item > span:first-child{
+  margin-right: auto;
+}
+.statistics-item > span:last-child{
+  font-weight: 500;
+}

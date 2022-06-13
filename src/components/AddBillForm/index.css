@@ -1,0 +1,9 @@
+.add-bill-form{
+  max-height: 0;
+  overflow: hidden;
+  transition: 300ms max-height ease-in;
+  align-items: flex-start;
+}
+.add-bill-form.visible{
+  max-height: 100px;
+}
