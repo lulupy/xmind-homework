@@ -4,6 +4,8 @@
 
 已生成打包文件，直接使用浏览器打开`<root_dir>/build/index.html`文件即可。
 
+![20220613161653](https://cdn.jsdelivr.net/gh/lulupy/image-hosting/20220613161653.png)
+
 ## 调试
 
 运行如下命令:
